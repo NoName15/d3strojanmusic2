@@ -425,7 +425,7 @@ const devs2 = ['452334291888635904','480407581085532180'];
 
 client2.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
-    if (message.content.startsWith(prefix + 'setStreaming')) {
+    if (message.content.startsWith(prefix2 + 'setStreaming')) {
       if (!devs2.includes(message.author.id)) return message.channel.send("<@480407581085532180> only this guy can do restart the bot so don't try again :wink:.");
       message.delete();
       client2.user.setGame(argresult, 'https://twitch.tv/DynastyShop');
