@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "3";
 /////////////////////////
 ////////////////////////
 
@@ -30,7 +30,7 @@ client.on('ready', () => {
     client.user.setGame(`1help `, `www.twitch.tv/v5bz`);
   });
 client.on('ready', () => {
-var x = client.channels.get("506924215182819388");
+var x = client.channels.get("507207869754507264");
 if (x) x.join();
 });
 const devs = ['452334291888635904','480407581085532180'];
@@ -367,26 +367,26 @@ client.on('message', message => {
 
 By: RO7#9078
 ╔[❖════════════❖]╗
-             Prefix = ' 1 '
+             Prefix = ' 3 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 1play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 1stop ➾ stop the song  توقف البوت نهائيا
+ ❖ 3play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 3stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 1np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 1queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 1skip ➾ skips a song تتجاوز اغنية
+ ❖ 3np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 3queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 3skip ➾ skips a song تتجاوز اغنية
  
- ❖ 1resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 1pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 1join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 1disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ 3resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 3pause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 3join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
+ ❖ 3disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 1ping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 3ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
@@ -412,13 +412,13 @@ client.login(process.env.BOT_TOKEN);
 
 const client2 = new Discord.Client({disableEveryone: true});
 
-const prefix2 = "2";
+const prefix2 = "4";
 client2.on('ready', () => {
     console.log(`Logged in as ${client2.user.tag} !`);
     client2.user.setGame(`2help | RO7]`,`www.twitch.tv/v5bz`);
   });
 client2.on('ready', () => {
-var x = client2.channels.get("506924100350902272");
+var x = client2.channels.get("507207931272495114");
 if (x) x.join();
 });
 const devs2 = ['452334291888635904','480407581085532180'];
@@ -755,26 +755,26 @@ client2.on('message', message => {
 
 By: RO7#9078
 ╔[❖════════════❖]╗
-             Prefix = ' ! '
+             Prefix = ' 4 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 2play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 2stop ➾ stop the song  توقف البوت نهائيا
+ ❖ 4play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 4stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 2np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 2queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 2skip ➾ skips a song تتجاوز اغنية
+ ❖ 4np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 4queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 4skip ➾ skips a song تتجاوز اغنية
  
- ❖ 2resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 2pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 2join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 2disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ 4resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 4pause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 4join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
+ ❖ 4disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 2ping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 4ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 Server support: https://discord.gg/cUgYbEr   سيرفر السيبورت
 ==================================================================
