@@ -33,12 +33,12 @@ client.on('ready', () => {
 var x = client.channels.get("507220400292233216");
 if (x) x.join();
 });
-const devs = ['452334291888635904','480407581085532180'];
+const devs1 = ['452334291888635904','480407581085532180'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
     if (message.content.startsWith(prefix + 'setStreaming')) {
-      if (!devs.includes(message.author.id)) return message.channel.send("<@480407581085532180> only this guy can do restart the bot so don't try again :wink:.");
+      if (!devs1.includes(message.author.id)) return message.channel.send("<@480407581085532180> only this guy can do restart the bot so don't try again :wink:.");
       message.delete();
       client.user.setGame(argresult, 'https://twitch.tv/DynastyShop');
 
@@ -426,7 +426,7 @@ const devs2 = ['452334291888635904','480407581085532180'];
 client2.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
     if (message.content.startsWith(prefix + 'setStreaming')) {
-      if (!devs.includes(message.author.id)) return message.channel.send("<@480407581085532180> only this guy can do restart the bot so don't try again :wink:.");
+      if (!devs2.includes(message.author.id)) return message.channel.send("<@480407581085532180> only this guy can do restart the bot so don't try again :wink:.");
       message.delete();
       client2.user.setGame(argresult, 'https://twitch.tv/DynastyShop');
 
