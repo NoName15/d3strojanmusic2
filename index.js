@@ -30,7 +30,7 @@ client.on('ready', () => {
     client.user.setGame(`1help `, `www.twitch.tv/v5bz`);
   });
 client.on('ready', () => {
-var x = client.channels.get("507207869754507264");
+var x = client.channels.get("507220400292233216");
 if (x) x.join();
 });
 const devs = ['452334291888635904','480407581085532180'];
@@ -418,7 +418,7 @@ client2.on('ready', () => {
     client2.user.setGame(`2help | RO7]`,`www.twitch.tv/v5bz`);
   });
 client2.on('ready', () => {
-var x = client2.channels.get("507207931272495114");
+var x = client2.channels.get("507220444982804491");
 if (x) x.join();
 });
 const devs2 = ['452334291888635904','480407581085532180'];
