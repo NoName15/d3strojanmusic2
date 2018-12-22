@@ -20,19 +20,16 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "3";
+const prefix = "z";
 /////////////////////////
 ////////////////////////
 
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-    client.user.setGame(`1help `, `www.twitch.tv/v5bz`);
+    client.user.setGame(`zhelp `, `www.twitch.tv/v5bz`);
   });
-client.on('ready', () => {
-var x = client.channels.get("507220400292233216");
-if (x) x.join();
-});
+
 const devs1 = ['400692843582062604','480407581085532180'];
 
 client.on('message', message => {
@@ -365,28 +362,27 @@ client.on('message', message => {
  message.author.sendMessage(`
  **
 
-By: RO7#9078
+By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' 3 '
+             Prefix = ' z '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 3play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 3stop ➾ stop the song  توقف البوت نهائيا
+ ❖ zplay ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ zstop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 3np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 3queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 3skip ➾ skips a song تتجاوز اغنية
+ ❖ znp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ zqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ zskip ➾ skips a song تتجاوز اغنية
  
- ❖ 3resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 3pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 3join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 3disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ zresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ zpause ➾ pauses a song  تووقف اغنية مؤقتا
+تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 3ping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ zping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
@@ -409,7 +405,7 @@ client.on('message', message => {
 });
 
 client.login(process.env.BOT_TOKEN);
-
+/*
 const client2 = new Discord.Client({disableEveryone: true});
 
 const prefix2 = "4";
@@ -797,3 +793,4 @@ client2.on('message', message => {
 });
 
 client2.login(process.env.BOT_TOKEN2);
+*/
