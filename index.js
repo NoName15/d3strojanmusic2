@@ -405,7 +405,7 @@ client.on('message', message => {
 });
 
 client.login(process.env.BOT_TOKEN);
-/*
+
 const client2 = new Discord.Client({disableEveryone: true});
 
 const prefix2 = "4";
@@ -793,4 +793,4 @@ client2.on('message', message => {
 });
 
 client2.login(process.env.BOT_TOKEN2);
-*/
+
