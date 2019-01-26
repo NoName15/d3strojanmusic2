@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "z";
+const prefix = "4";
 /////////////////////////
 ////////////////////////
 
@@ -364,25 +364,25 @@ client.on('message', message => {
 
 By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' z '
+             Prefix = ' 4 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ zplay ➾ play a song  تشغل اغنية برابط او اسم
- ❖ zstop ➾ stop the song  توقف البوت نهائيا
+ ❖ 4play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 4stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ znp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ zqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ zskip ➾ skips a song تتجاوز اغنية
+ ❖ 4np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 4queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 4skip ➾ skips a song تتجاوز اغنية
  
- ❖ zresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ zpause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 4resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 4pause ➾ pauses a song  تووقف اغنية مؤقتا
 تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ zping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 4ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
