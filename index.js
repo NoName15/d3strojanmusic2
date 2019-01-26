@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "4";
+const prefix = "3";
 /////////////////////////
 ////////////////////////
 
@@ -364,25 +364,25 @@ client.on('message', message => {
 
 By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' 4 '
+             Prefix = ' 3 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 4play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 4stop ➾ stop the song  توقف البوت نهائيا
+ ❖ 3play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 3stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 4np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 4queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 4skip ➾ skips a song تتجاوز اغنية
+ ❖ 3np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 3queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 3skip ➾ skips a song تتجاوز اغنية
  
- ❖ 4resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 4pause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 3resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 3pause ➾ pauses a song  تووقف اغنية مؤقتا
 تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 4ping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 3ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
